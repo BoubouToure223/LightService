@@ -1,0 +1,14 @@
+# Robots.txt pour Light Service
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://LightserviceMl.com/sitemap.xml
+
+# Crawl-delay pour éviter la surcharge
+Crawl-delay: 1
+
+# Bloquer les ressources inutiles
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
