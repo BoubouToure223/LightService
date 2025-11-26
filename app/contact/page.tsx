@@ -13,9 +13,9 @@ export const metadata: Metadata = {
     title: "Contact - Light Service",
     description:
       "Entrer en contact avec Light Service pour vos projets numériques.",
-    url: "https://LightserviceMl.com/contact",
+    url: "https://lightservice.tech/contact",
     images: [
-      { url: "https://LightserviceMl.com/placeholder.jpg", width: 1200, height: 630, alt: "Contact" },
+      { url: "https://lightservice.tech/placeholder.jpg", width: 1200, height: 630, alt: "Contact" },
     ],
     type: "website",
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Contact - Light Service",
     description: "Entrer en contact avec Light Service pour vos projets numériques.",
-    images: ["https://LightserviceMl.com/placeholder.jpg"],
+    images: ["https://lightservice.tech/placeholder.jpg"],
   },
 }
 
@@ -32,8 +32,8 @@ export default function ContactPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://LightserviceMl.com/" },
-      { "@type": "ListItem", position: 2, name: "Contact", item: "https://LightserviceMl.com/contact" },
+      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://lightservice.tech/" },
+      { "@type": "ListItem", position: 2, name: "Contact", item: "https://lightservice.tech/contact" },
     ],
   }
 
@@ -43,8 +43,8 @@ export default function ContactPage() {
     mainEntity: {
       "@type": "Organization",
       name: "Light Service",
-      url: "https://LightserviceMl.com/",
-      logo: "https://LightserviceMl.com/placeholder-logo.png",
+      url: "https://lightservice.tech/",
+      logo: "https://lightservice.tech/placeholder-logo.png",
       contactPoint: {
         "@type": "ContactPoint",
         telephone: "+33-X-XX-XX-XX-XX",

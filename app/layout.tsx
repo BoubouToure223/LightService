@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://LightserviceMl.com"),
+  metadataBase: new URL("https://lightservice.tech"),
   alternates: {
     canonical: "/",
   },
@@ -51,13 +51,13 @@ export const metadata: Metadata = {
     title: "Light Service - Solutions IT Professionnelles",
     description:
       "Développement web et mobile, maintenance informatique, vidéosurveillance et vente de matériel. Votre partenaire IT de confiance.",
-    url: "https://LightserviceMl.com/",
+    url: "https://lightservice.tech/",
     siteName: "Light Service",
     locale: "fr_FR",
     type: "website",
     images: [
       {
-        url: "https://LightserviceMl.com/placeholder.jpg",
+        url: "https://lightservice.tech/placeholder.jpg",
         width: 1200,
         height: 630,
         alt: "Light Service - Solutions IT Professionnelles",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Light Service - Solutions IT Professionnelles",
     description: "Développement web et mobile, maintenance informatique, vidéosurveillance et vente de matériel.",
-    images: ["https://LightserviceMl.com/placeholder.jpg"],
+    images: ["https://lightservice.tech/placeholder.jpg"],
   },
   robots: {
     index: true,
@@ -107,8 +107,8 @@ export default function RootLayout({
               name: "Light Service",
               description:
                 "Solutions IT professionnelles - Développement web et mobile, maintenance informatique, vidéosurveillance",
-              url: "https://LightserviceMl.com/",
-              logo: "https://LightserviceMl.com/placeholder-logo.png",
+              url: "https://lightservice.tech/",
+              logo: "https://lightservice.tech/placeholder-logo.png",
               contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "+33-X-XX-XX-XX-XX",

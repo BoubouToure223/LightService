@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://LightserviceMl.com/sitemap.xml
+Sitemap: https://lightservice.tech/sitemap.xml
 
 # Crawl-delay pour éviter la surcharge
 Crawl-delay: 1

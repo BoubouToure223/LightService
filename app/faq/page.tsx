@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     title: "FAQ - Light Service",
     description:
       "Questions fréquentes sur nos services: développement web et mobile, maintenance informatique et sécurité.",
-    url: "https://LightserviceMl.com/faq",
+    url: "https://lightservice.tech/faq",
     images: [
       {
-        url: "https://LightserviceMl.com/placeholder.jpg",
+        url: "https://lightservice.tech/placeholder.jpg",
         width: 1200,
         height: 630,
         alt: "FAQ Light Service",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: "FAQ - Light Service",
     description:
       "Questions fréquentes sur nos services: développement web et mobile, maintenance informatique et sécurité.",
-    images: ["https://LightserviceMl.com/placeholder.jpg"],
+    images: ["https://lightservice.tech/placeholder.jpg"],
   },
 }
 

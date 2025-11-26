@@ -13,9 +13,9 @@ export const metadata: Metadata = {
     title: "Réalisations - Light Service",
     description:
       "Quelques projets phares menés pour nos clients: performance, fiabilité et sécurité.",
-    url: "https://LightserviceMl.com/projects",
+    url: "https://lightservice.tech/projects",
     images: [
-      { url: "https://LightserviceMl.com/placeholder.jpg", width: 1200, height: 630, alt: "Réalisations" },
+      { url: "https://lightservice.tech/placeholder.jpg", width: 1200, height: 630, alt: "Réalisations" },
     ],
     type: "website",
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Réalisations - Light Service",
     description:
       "Quelques projets phares menés pour nos clients: performance, fiabilité et sécurité.",
-    images: ["https://LightserviceMl.com/placeholder.jpg"],
+    images: ["https://lightservice.tech/placeholder.jpg"],
   },
 }
 
@@ -33,8 +33,8 @@ export default function ProjectsPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://LightserviceMl.com/" },
-      { "@type": "ListItem", position: 2, name: "Réalisations", item: "https://LightserviceMl.com/projects" },
+      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://lightservice.tech/" },
+      { "@type": "ListItem", position: 2, name: "Réalisations", item: "https://lightservice.tech/projects" },
     ],
   }
 

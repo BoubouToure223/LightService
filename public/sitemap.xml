@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://LightserviceMl.com/</loc>
-    <lastmod>2025-01-06</lastmod>
+    <loc>https://lightservice.tech/</loc>
+    <lastmod>2025-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://LightserviceMl.com/services</loc>
-    <lastmod>2025-11-10</lastmod>
+    <loc>https://lightservice.tech/services</loc>
+    <lastmod>2025-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://LightserviceMl.com/faq</loc>
-    <lastmod>2025-11-10</lastmod>
+    <loc>https://lightservice.tech/faq</loc>
+    <lastmod>2025-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://lightservice.tech/about</loc>
+  </url>
+  <url>
+    <loc>https://lightservice.tech/projects</loc>
+  </url>
+  <url>
+    <loc>https://lightservice.tech/contact</loc>
+  </url>
 </urlset>
-

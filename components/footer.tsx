@@ -3,7 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { useMemo } from "react"
-import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react"
+import { Facebook, Youtube, Linkedin } from "lucide-react"
 
 export function Footer() {
   const currentYear = useMemo(() => new Date().getFullYear(), [])
@@ -19,9 +19,8 @@ export function Footer() {
       ],
       social: [
         { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/share/1Gopd2nCdn/?mibextid=wwXIfr" },
-        { name: "Twitter", icon: Twitter, href: "https://x.com/votre-compte" },
+        { name: "YouTube", icon: Youtube, href: "https://www.youtube.com/@sekoucisse5619" },
         { name: "LinkedIn", icon: Linkedin, href: "http://linkedin.com/in/sékou-amirou-cisse-81b6aa2b3" },
-        { name: "Instagram", icon: Instagram, href: "https://instagram.com/votre-compte" },
       ],
     }),
     []

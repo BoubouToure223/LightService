@@ -13,9 +13,9 @@ export const metadata: Metadata = {
     title: "À propos - Light Service",
     description:
       "Notre mission: délivrer des solutions IT fiables et performantes pour accélérer votre activité.",
-    url: "https://LightserviceMl.com/about",
+    url: "https://lightservice.tech/about",
     images: [
-      { url: "https://LightserviceMl.com/placeholder.jpg", width: 1200, height: 630, alt: "À propos" },
+      { url: "https://lightservice.tech/placeholder.jpg", width: 1200, height: 630, alt: "À propos" },
     ],
     type: "website",
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "À propos - Light Service",
     description:
       "Notre mission: délivrer des solutions IT fiables et performantes pour accélérer votre activité.",
-    images: ["https://LightserviceMl.com/placeholder.jpg"],
+    images: ["https://lightservice.tech/placeholder.jpg"],
   },
 }
 
@@ -33,8 +33,8 @@ export default function AboutPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://LightserviceMl.com/" },
-      { "@type": "ListItem", position: 2, name: "À propos", item: "https://LightserviceMl.com/about" },
+      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://lightservice.tech/" },
+      { "@type": "ListItem", position: 2, name: "À propos", item: "https://lightservice.tech/about" },
     ],
   }
 

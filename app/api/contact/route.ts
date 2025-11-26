@@ -128,8 +128,8 @@ export async function POST(request: NextRequest) {
     }
 
     // Email de destination (configuré via variable d'environnement)
-    const recipientEmail = process.env.CONTACT_EMAIL || "contact@lightservice.ml"
-    const fromEmail = process.env.FROM_EMAIL || "contact@lightservice.ml"
+    const recipientEmail = process.env.CONTACT_EMAIL || "contact@lightservice.tech"
+    const fromEmail = process.env.FROM_EMAIL || "contact@lightservice.tech"
     const resendApiKey = process.env.RESEND_API_KEY
 
     // Si Resend n'est pas configuré, on log seulement (mode développement)

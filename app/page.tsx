@@ -30,9 +30,9 @@ export const metadata = {
     title: "Light Service - Solutions IT Professionnelles",
     description:
       "Développement web et mobile, maintenance informatique, vidéosurveillance et vente de matériel.",
-    url: "https://LightserviceMl.com/",
+    url: "https://lightservice.tech/",
     images: [
-      { url: "https://LightserviceMl.com/placeholder.jpg", width: 1200, height: 630, alt: "Accueil" },
+      { url: "https://lightservice.tech/placeholder.jpg", width: 1200, height: 630, alt: "Accueil" },
     ],
     type: "website",
   },
@@ -41,7 +41,7 @@ export const metadata = {
     title: "Light Service - Solutions IT Professionnelles",
     description:
       "Développement web et mobile, maintenance informatique, vidéosurveillance et vente de matériel.",
-    images: ["https://LightserviceMl.com/placeholder.jpg"],
+    images: ["https://lightservice.tech/placeholder.jpg"],
   },
 }
 
@@ -64,7 +64,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Accueil", item: "https://LightserviceMl.com/" },
+              { "@type": "ListItem", position: 1, name: "Accueil", item: "https://lightservice.tech/" },
             ],
           }),
         }}
