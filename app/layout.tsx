@@ -81,6 +81,11 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  icons: {
+    icon: [
+      { url: "/logo light-service.jpg" },
+    ],
+  },
   generator: 'v0.app'
 }
 
@@ -91,9 +96,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <head>
-        <link rel="icon" type="image/jpeg" href="/logo light-service.jpg" />
-      </head>
       <body className={`${inter.variable} ${poppins.variable} font-sans antialiased`}>
         {children}
         <Script
@@ -108,7 +110,7 @@ export default function RootLayout({
               description:
                 "Solutions IT professionnelles - Développement web et mobile, maintenance informatique, vidéosurveillance",
               url: "https://lightservice.tech/",
-              logo: "https://lightservice.tech/placeholder-logo.png",
+              logo: "https://lightservice.tech/logo%20light-service.jpg",
               contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "+33-X-XX-XX-XX-XX",

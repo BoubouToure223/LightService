@@ -61,7 +61,7 @@ export default function ServicesPage() {
       "@type": "Organization",
       name: "Light Service",
       url: "/",
-      logo: "/placeholder-logo.png",
+      logo: "/logo light-service.jpg",
     },
     areaServed: "FR",
     hasOfferCatalog: {

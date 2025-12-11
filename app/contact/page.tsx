@@ -44,7 +44,7 @@ export default function ContactPage() {
       "@type": "Organization",
       name: "Light Service",
       url: "https://lightservice.tech/",
-      logo: "https://lightservice.tech/placeholder-logo.png",
+      logo: "https://lightservice.tech/logo%20light-service.jpg",
       contactPoint: {
         "@type": "ContactPoint",
         telephone: "+33-X-XX-XX-XX-XX",
